@@ -12,7 +12,7 @@ CSS
 
 ## Application link
 
-
+https://serhiyzv.github.io/mini-pro-week-2/
 
 ## Screenshot
 

@@ -17,6 +17,6 @@ https://serhiyzv.github.io/mini-pro-week-2/
 ## Screenshot
 
 ```md 
-![alt CSS Snippet](assets/images/CSS%20Snippet%20Cheatsheet.png)
+![alt text](assets/images/CSS%20Snippet%20Cheatsheet.png)
 ```
 

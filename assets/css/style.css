@@ -1,0 +1,107 @@
+/* variable declarations */
+:root {
+    --beckground: rgb(86 83 83);
+    --textcolor: #cd09f1;
+    --myfont: Arial, Helvetica, sans-serif;
+    --bordercolor: aliceblue;
+    --codecolor: #fff;
+}
+
+
+/* Default styles */
+body {
+    background-color: rgb(86 83 83);
+    font-family: var(--myfont);
+    font-size: 100%;
+
+    /* Header Style*/
+}
+header {
+    max-width: 992px;
+    width: 100%;
+    padding: 0 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Heading Style*/
+header h1 {
+    color: var(--textcolor);
+    font-size: 200%;
+    margin: 30px 0 20px;
+    text-align: center;
+    font-family: var(--myfont);
+}
+
+header p {
+    color: var(--codecolor);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Section Flex Style*/
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+}
+
+
+.card {
+    flex: 1 1 280px;
+    border: 2px dashed var(--bordercolor);
+    color: var(--textcolor);
+    padding: 0 10px 10px;
+    margin: 0 15px 30px;
+}
+
+.card h2 {
+    font-size: 150%;
+    width: 100%;
+    border: 2px solid var(--bordercolor);
+    border-radius: 4px;
+    position: relative;
+    top: -35px;
+    background-color: rgb(86 83 83);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card p {
+    color: var(--textcolor);
+    margin-bottom: 10px;
+}
+
+.card pre {
+    color: var(--codecolor);
+    border-radius: 5px;
+    padding: 20px;
+    background: linear-gradient(180deg, #610272, #aa05c7);
+    font-size: 100%;
+    white-space: pre-wrap;
+    user-select: all;
+}
+
+.card pre::selection {
+    color: black;
+    background-color: rgb(17, 158, 123);
+
+}
+
+.card, .card h2 {
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover, .card h2:hover {
+    box-shadow: inset 0px 0px 20px #15b5dd;
+}
+
+footer {
+    color: var(--textcolor);
+    margin-bottom: 50px;
+    text-align: center;
+}
